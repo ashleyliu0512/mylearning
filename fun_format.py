@@ -7,7 +7,7 @@ print("{1} {0} {1}".format("hello", "world") ) #输出：world hello world'
 
 # 通过字典设置参数
 site = {"name": "菜鸟教程", "url": "www.runoob.com"}
-print("网站名：{name}, 地址 {url}".format(**site))
+print("网站名：{name}, 地址 {url}".format(**site)) #**表示解包字典
  
 # 通过列表索引设置参数
 my_list = ['菜鸟教程', 'www.runoob.com']
